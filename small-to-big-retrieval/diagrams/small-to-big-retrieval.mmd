@@ -1,0 +1,7 @@
+flowchart LR
+    Q[User Query] --> S[Small Chunk Retrieval]
+    S --> M[Matched Chunk]
+    M --> P[Parent Section / Document]
+    P --> C[Context Assembly]
+    C --> L[LLM]
+    L --> A[Grounded Answer]

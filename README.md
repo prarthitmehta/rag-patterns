@@ -2,25 +2,28 @@
 
 Practical patterns for building accurate, scalable, and enterprise-ready Retrieval Augmented Generation systems.
 
-## Core Patterns
+This repository expands the ideas from the article **“Stop Blaming the LLM: RAG Accuracy is a Retrieval Problem”** into reusable architecture assets.
 
-- Hybrid Search
-- Reranking
-- Query Expansion
-- Small-to-Big Retrieval
-- Context Compression
-- Metadata Filtering
-- Evaluation
-- Observability
+## Pattern Catalog
 
-## Architecture Areas
+| Pattern | Purpose |
+|---|---|
+| Hybrid Search | Combine lexical and semantic retrieval |
+| Reranking | Improve result quality before generation |
+| Small-to-Big Retrieval | Retrieve precise chunks but provide broader context |
+| Query Expansion | Convert vague questions into stronger retrieval queries |
+| RAG Evaluation Loop | Continuously measure retrieval and answer quality |
 
-- AWS Bedrock RAG
-- OpenSearch RAG
-- Vector Database Patterns
-- Multi-Agent Retrieval
+## Repository Structure
 
----
+```text
+hybrid-search/
+reranking/
+small-to-big-retrieval/
+query-expansion/
+evaluation-loop/
+```
 
-Field-tested patterns for reliable enterprise RAG.
+## Operating Principle
 
+RAG accuracy is rarely just an LLM problem. In production systems, answer quality depends heavily on retrieval design, ranking, chunking, metadata, evaluation, and observability.

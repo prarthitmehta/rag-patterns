@@ -1,0 +1,9 @@
+flowchart LR
+    Q[User Query] --> K[Keyword Search / BM25]
+    Q --> V[Vector Search]
+    K --> F[Score Fusion]
+    V --> F
+    F --> R[Ranked Results]
+    R --> C[Context Builder]
+    C --> L[LLM]
+    L --> A[Grounded Answer]

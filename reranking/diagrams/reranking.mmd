@@ -1,0 +1,7 @@
+flowchart LR
+    Q[User Query] --> S[Initial Search]
+    S --> T[Top 20-50 Candidates]
+    T --> R[Cross-Encoder / Reranker]
+    R --> B[Best 3-8 Chunks]
+    B --> L[LLM]
+    L --> A[Answer with Sources]

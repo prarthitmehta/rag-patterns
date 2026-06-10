@@ -1,0 +1,10 @@
+flowchart LR
+    Q[User Query] --> E[Query Expansion]
+    E --> Q1[Expanded Query 1]
+    E --> Q2[Expanded Query 2]
+    E --> Q3[Expanded Query 3]
+    Q1 --> R[Hybrid Retrieval]
+    Q2 --> R
+    Q3 --> R
+    R --> C[Context Builder]
+    C --> L[LLM]
