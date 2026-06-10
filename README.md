@@ -4,35 +4,16 @@ Practical patterns for building accurate, scalable, and enterprise-ready Retriev
 
 ## Core Patterns
 
-### Retrieval
-
 - Hybrid Search
-- Semantic Search
-- Metadata Filtering
-- Multi-Vector Retrieval
-
-### Accuracy
-
 - Reranking
 - Query Expansion
 - Small-to-Big Retrieval
 - Context Compression
-
-### Evaluation
-
-- Groundedness
-- Faithfulness
-- Answer Relevance
-- Retrieval Precision
-
-### Production
-
-- Security
-- Cost Optimization
+- Metadata Filtering
+- Evaluation
 - Observability
-- Governance
 
-## Architecture Diagrams
+## Architecture Areas
 
 - AWS Bedrock RAG
 - OpenSearch RAG
@@ -41,4 +22,5 @@ Practical patterns for building accurate, scalable, and enterprise-ready Retriev
 
 ---
 
-Inspired by real-world lessons learned from enterprise AI implementations.
+Field-tested patterns for reliable enterprise RAG.
+
